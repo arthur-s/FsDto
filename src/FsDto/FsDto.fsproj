@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Postgres.fs" />
+    <Compile Include="DB.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Donald" Version="6.2.5" />
+    <PackageReference Include="Npgsql" Version="5.0.7" />
+  </ItemGroup>
+
+</Project>

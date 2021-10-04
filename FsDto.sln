@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FsDto", "src\FsDto\FsDto.fsproj", "{C325510A-1E14-4BAE-8BE5-DBA41B410C46}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "example", "example\example.fsproj", "{63025FCC-3089-40BB-AA2D-C2603EA7DE03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C325510A-1E14-4BAE-8BE5-DBA41B410C46} = {C325510A-1E14-4BAE-8BE5-DBA41B410C46}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C325510A-1E14-4BAE-8BE5-DBA41B410C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C325510A-1E14-4BAE-8BE5-DBA41B410C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C325510A-1E14-4BAE-8BE5-DBA41B410C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C325510A-1E14-4BAE-8BE5-DBA41B410C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63025FCC-3089-40BB-AA2D-C2603EA7DE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63025FCC-3089-40BB-AA2D-C2603EA7DE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63025FCC-3089-40BB-AA2D-C2603EA7DE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63025FCC-3089-40BB-AA2D-C2603EA7DE03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7192D239-F66A-4AA8-9311-D6EA21C7C6F0}
+	EndGlobalSection
+EndGlobal
